@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+h1,h2,h3{
+	text-align:center;
+	font-family:sans-serif;
+}
+#songs{
+	border:2px solid black;
+	border-radius:5px;
+}
+a{
+	text-decoration-line:none;
+	list-style-position:none;
+}
+div{
+	background-color: rgb(255, 255, 255);
+	padding: border-radius;
+	/* border:2px solid blue; */
+}
+body{
+	background-color:rgb(204,204,204)
+}
+.player_one/.player_two{
+	align-items:center;
+	display:flex;
+}
+.container{
+	width:550px;
+	margin:0 auto;
+	padding:10px;
+	border-radius:5px;
+	border:2px solid black;
+}
+.player_one{
+	width:550px;
+}
+.player_two{
+	width:550px;
+}
+.mp3{
+	margin-top:-10px;
+}
+.sng label{
+	/* /* margin:0 0 10px 10px; */
+	padding:0 0 10px 10px; */
+	
+}
+.sng{
+	display:flex;
+	flex-direction:column;
+}
+li{
+	list-style-type:none;
+	text-decoration-line:none;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
