@@ -6,15 +6,16 @@ h1,h2,h3{
 #songs{
 	border:2px solid black;
 	border-radius:5px;
+	background:white;
 }
 a{
 	text-decoration-line:none;
 	list-style-position:none;
-}
-div{
+/* }
+/* div{
 	background-color: rgb(255, 255, 255);
 	padding: border-radius;
-	/* border:2px solid blue; */
+	/* border:2px solid blue; */ */ */
 }
 body{
 	background-color:rgb(204,204,204)
@@ -29,19 +30,24 @@ body{
 	padding:10px;
 	border-radius:5px;
 	border:2px solid black;
+	background:white;
 }
 .player_one{
 	width:550px;
+	padding:border-radius;
 }
 .player_two{
 	width:550px;
+	padding:border-radius;
 }
 .mp3{
 	margin-top:-10px;
 }
 .sng label{
 	/* /* margin:0 0 10px 10px; */
-	padding:0 0 10px 10px; */
+	padding:0 0 10px 10px;
+	font-family:sans-serif;
+	
 	
 }
 .sng{
@@ -55,4 +61,4 @@ li{
 a{
 	text-decoration:none;
 	color:black;
-}
+	font-family:sans-serif;
